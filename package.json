@@ -25,5 +25,8 @@
         "vuetify": "^0.16.9",
         "vuex": "^3.0.0",
         "webpack-bundle-analyzer": "^2.9.0"
+    },
+    "dependencies": {
+        "vue-clip": "^1.0.0"
     }
 }
