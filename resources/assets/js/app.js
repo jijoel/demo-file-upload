@@ -39,6 +39,7 @@ Vue.use(VueClip)
  */
 
 Vue.component('vk-avatar-uploader', require('./components/AvatarUploader.vue'))
+Vue.component('vk-document-uploader', require('./components/DocumentUploader.vue'))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'))
 

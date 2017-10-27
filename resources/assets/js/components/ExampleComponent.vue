@@ -20,6 +20,20 @@
 </v-card>
 
 
+<v-card>
+  <v-card-title class="pb-0">
+    <h3 class="headline mb-0 primary--text">
+      Example Document Uploader
+    </h3>
+  </v-card-title>
+  <v-card-text>
+
+  <vk-document-uploader
+    url="/api/upload"
+  ></vk-document-uploader>
+
+  </v-card-text>
+</v-card>
 
 
 
