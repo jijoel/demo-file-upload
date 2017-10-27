@@ -88,8 +88,14 @@ export default {
     },
     onDropPhoto() {
       axios.post('/api/drop', this.photo.xhrResponse)
-      this.photo = null
+        .then(() => this.photo = null)
+        .catch((error) => errorHandler(error))
     },
+
+    errorHandler(error) {
+      console.log(error)
+    },
+
   }
 
 }
